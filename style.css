@@ -1,0 +1,128 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* это правила для центровочного контейнера */
+}
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 20px;   
+    display: flex; 
+    margin: 0 auto;
+}
+.header-contacts{
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-evenly;; 
+    align-items: center;
+}
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin: 50px;
+    display: flex; 
+    background-color: rgba(233, 95, 233, 0.318);
+    border-radius: 30px 30px;
+}
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: darkorchid;
+    font-weight: bold;
+}
+.right > li{
+   color: black;
+}
+.oprab{
+    margin-left:400px ;
+    padding-bottom: 10px;
+    color: darkorchid;
+    font-weight: bold;
+}
+.img{
+   width: 200px;
+   height: 200px;
+   border: 3px solid darkorchid ;
+   border-radius: 50%;
+   box-shadow:0 0 20px rgb(87, 19, 122);
+}
+.main-list-zag{
+    color: black;
+    margin-bottom: 10px;
+}
+.main-textbox{
+    text-align: justify;
+    margin-top: 10px;
+}
+.main-box{
+    border-bottom: 1px solid  darkorchid;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    max-width: 100%;
+}
+.main-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+.main-content{
+    max-width: 60%;
+}
+.main-wrapper{
+    padding-right: 12%;
+    padding-bottom: 50px;
+    margin-left: 400px;
+}
+.skills-zag{
+    color: darkorchid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.skills-span{
+   background-color: rgba(218, 112, 214, 0.5);
+   border-radius: 5px 5px;
+   margin: 5px;
+   padding: 5px;
+}
+.name{
+    padding-left: 110px;
+}
+.main-time{
+    color:darkorchid;
+    /*margin: 10px;*/
+}
+.main-text{
+    background-color: orchid;
+    border-radius: 5px 5px;
+    padding: 5px;
+}
+.main-text-more{
+    background-color: rgba(181, 59, 242, 0.722);
+    border-radius: 5px 5px;
+    padding: 5px;
+}
+
+
+
+
